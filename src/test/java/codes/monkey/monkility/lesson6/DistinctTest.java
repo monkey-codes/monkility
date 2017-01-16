@@ -46,7 +46,7 @@ public class DistinctTest {
     
     @Test
     public void itShouldFindNumberOfDistinctValues(){
-        assertEquals(3, distinct.solution(new int[]{2,1,1,2,3,1}));
+        assertEquals(3, distinct.solution2(new int[]{2,1,1,2,3,1}));
         Random random = new Random();
         int[] input = IntStream.range(0, 10000000).map(i -> random.nextInt()).toArray();
         long start = System.currentTimeMillis();

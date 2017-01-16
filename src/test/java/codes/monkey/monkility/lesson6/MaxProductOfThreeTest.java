@@ -64,5 +64,7 @@ public class MaxProductOfThreeTest {
     @Test
     public void itShouldFindMaxProduct(){
         assertEquals(60, maxProductOfThree.solution(new int[]{-3,1,2,-2,5,6}));
+        assertEquals(54, maxProductOfThree.solution(new int[]{1,2,3,-9,-2}));
+        assertEquals(125, maxProductOfThree.solution(new int[]{-5,5,-5,4}));
     }
 }

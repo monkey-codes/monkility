@@ -26,7 +26,6 @@ public class Triangle {
             int p = input[i];
             int q = input[i+1];
             int r = input[i+2];
-            System.out.printf("(%s,%s,%s)\n", p,q,r);
             if(p + q > r) return 1;
         }
         return  0;
